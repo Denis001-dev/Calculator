@@ -12,7 +12,7 @@ public class Calculator {
                 System.out.println("Enter 1 Value");
                 val1 = sc.nextInt();
                 System.out.println("Enter Operand");
-                operation = sc.next().charAt(1);
+                operation = sc.next().charAt(0);
 
             }else {
                 val1 = result;
